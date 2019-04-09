@@ -108,3 +108,12 @@ venv.bak/
 
 # ipython
 *.ipynb
+
+# webpage
+*.html
+!plots
+
+# data
+*.pkl
+*.pq
+*.csv
