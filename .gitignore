@@ -112,8 +112,9 @@ venv.bak/
 # webpage
 *.html
 !plots/*.html
+!index.html
 
 # data
 *.pkl
 *.pq
-*.csv
+*.cs v
