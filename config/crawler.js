@@ -3,6 +3,17 @@
     Author: Hao Sheng <haosheng@stanford.edu>
     Last update: Apr. 8th, 2019
 */
+function pad(n, width, z) {
+  z = z || '0';
+  n = n + '';
+  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+
+var today = new Date();
+var year = today.getFullYear();
+var month = today.getMonth() + 1;
+var date = year.toString() + "-" + pad(month, 2); //@input(date, 输入月份（留空为对所有月进行爬取）, "2018-04", "")
+
 var configs = {
   domains: ["www.checkee.info"],
   scanUrls: [],
@@ -82,11 +93,7 @@ var configs = {
   ]
 };
 
-function pad(n, width, z) {
-  z = z || '0';
-  n = n + '';
-  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
-}
+
 
 configs.initCrawl = function(site) {
   var options = {
@@ -98,13 +105,20 @@ configs.initCrawl = function(site) {
       page: 1
     }
   };
-  for (var year = 2000; year < 2020; year++) {
-    for (var month = 1; month < 13; month++) {
-      var helperUrl = "https://www.checkee.info/main.php?dispdate=" + year.toString() + "-" + pad(month, 2);
-      site.addScanUrl(helperUrl, options);
+
+  var helperUrl;
+  if (date === "") {
+    for (var y = 2000; y < 2020; y++) {
+      for (var m = 1; m < 13; m++) {
+        helperUrl = "https://www.checkee.info/main.php?dispdate=" + y.toString() + "-" + pad(m, 2);
+        site.addScanUrl(helperUrl, options);
+      }
     }
   }
-
+  else {
+    helperUrl = "https://www.checkee.info/main.php?dispdate=" + date;
+    site.addScanUrl(helperUrl, options);
+  }
 
 }
 
