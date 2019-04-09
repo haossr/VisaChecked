@@ -111,7 +111,7 @@ venv.bak/
 
 # webpage
 *.html
-!plots
+!plots/*.html
 
 # data
 *.pkl
