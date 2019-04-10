@@ -8,20 +8,23 @@ Processing) is a process lot os people have to go through.
 And according to the self reported data at [Checkee.info](https://www.checkee.info/)
 , the *typical* waiting time is around 2 months and could up to 500 days.
 
+
+
 We try to visualize the data to help people around the world understand the severity of this
-*AdministrativeProcessing. Unfortunately we are not able to visualize the waste of time, monty and efforts during waiting, desperation
+*Administrative Processing*. Unfortunately we are not able to visualize the waste of time, monty and efforts during waiting, desperation
 and anxiety when separating from family and friends.
+
+
+What's the next?
+---
 
 
 Check cases by visa type
 ---
-<iframe style="height: 40%; width:40%; border: none" src="resource/html/month-type-bar.html" seamless>
-
-</iframe>
-
 
 Check cases by consulate 
 ---
-<iframe style="height: 40%; width:40%; border: none" src="resource/html/month-consulate-bar.html" seamless>
+
+<iframe width="560" height="315" src="resource/html/check-length.html" frameborder="0">
 
 </iframe>
