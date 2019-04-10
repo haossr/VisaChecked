@@ -1,5 +1,5 @@
 title: "Visa Check"
-logo: "/docs/resource/img/logo.png"
+logo: "resource/img/logo.png"
 description: "Visa check is a visualization of U.S. visa check (a.k.a. Administrative Processing) data."
 show_downloads: true
 google_analytics:

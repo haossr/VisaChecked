@@ -14,6 +14,6 @@ and anxiety when separating from family and friends.
 
 
 
-<iframe style="position: absolute; height: 100%; width:100%; border: none" src="docs/plots/month-type-bar.html" seamless>
+<iframe style="position: absolute; height: 100%; width:100%; border: none" src="plots/month-type-bar.html" seamless>
 
 </iframe>
