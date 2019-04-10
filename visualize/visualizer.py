@@ -8,10 +8,10 @@ class Visualizer:
         self.auto_open = auto_open
 
         self.MONTH_TYPE_COLUMN = "visa_type"
-        self.MONTH_TYPE_BAR_FILE = "plots/month-type-bar.html"
+        self.MONTH_TYPE_BAR_FILE = "docs/html/month-type-bar.html"
 
         self.MONTH_CONSULATE_COLUMN = "visa_consulate"
-        self.MONTH_CONSULATE_BAR_FILE = "plots/month-consulate-bar.html"
+        self.MONTH_CONSULATE_BAR_FILE = "docs/html/month-consulate-bar.html"
 
     def plot_month_bar(self, category="visa_type", filename="plots/month-type-bar.html"):
         # copy the raw data
