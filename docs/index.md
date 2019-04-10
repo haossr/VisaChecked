@@ -15,13 +15,13 @@ and anxiety when separating from family and friends.
 
 Check cases by visa type
 ---
-<iframe style="position: absolute; height: 40%; width:40%; border: none" src="resource/html/month-type-bar.html" seamless>
+<iframe style="height: 40%; width:40%; border: none" src="resource/html/month-type-bar.html" seamless>
 
 </iframe>
 
 
 Check cases by consulate 
 ---
-<iframe style="position: absolute; height: 40%; width:40%; border: none" src="resource/html/month-consulate-bar.html" seamless>
+<iframe style="height: 40%; width:40%; border: none" src="resource/html/month-consulate-bar.html" seamless>
 
 </iframe>
