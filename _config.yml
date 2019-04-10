@@ -1,1 +1,6 @@
+title: Visa Check
+logo: /docs/reosurce/img/logo.png
+description: Visa check is a visualization of U.S. visa check (a.k.a. Administrative Processing) data.
+show_downloads: false
+google_analytics:
 theme: jekyll-theme-minimal
