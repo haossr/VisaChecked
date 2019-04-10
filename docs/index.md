@@ -8,7 +8,7 @@ Processing) is a process lot os people have to go through.
 And according to the self reported data at [Checkee.info](https://www.checkee.info/)
 , the *typical* waiting time is around 2 months and could up to 500 days.
 
-<iframe width="680" height="420" src="resource/html/check-length.html" frameborder="0">
+<iframe width="620" height="480" src="resource/html/check-length.html" frameborder="0">
 
 </iframe>
 
@@ -24,14 +24,14 @@ What's the next?
 Check cases by visa type
 ----
 
-<iframe width="680" height="420" src="resource/html/month-type-bar.html" frameborder="0">
+<iframe width="620" height="480" src="resource/html/month-type-bar.html" frameborder="0">
 
 </iframe>
 
 Check cases by consulate 
 ----
 
-<iframe width="680" height="420" src="resource/html/month-consulate-bar.html" frameborder="0">
+<iframe width="620" height="480" src="resource/html/month-consulate-bar.html" frameborder="0">
 
 </iframe>
 
