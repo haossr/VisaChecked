@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "visa-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-wr9xbgz4uzzw"
+s3_prefix = "visa-app"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
